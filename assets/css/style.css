@@ -121,6 +121,11 @@ body {
   font-weight: 500;
   background-color: #525252;
   color: #555555;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* ---------------------- Special paddings/margins/text ------------------------ */
@@ -266,7 +271,7 @@ footer {
   background-color: #525252;
   color: #fafafa;
   min-height: 120px;
-  margin: 0;
+  margin-top: auto;
   padding: 20px;
 }
 
@@ -282,7 +287,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-  color: #e84610;
+  color: #10c0e8;
 }
 
 .social-links {
@@ -306,7 +311,7 @@ footer {
 }
 
 .social-links li a i:hover {
-  background: #e84610;
+  background: #10c0e8;
 }
 
 #footer-details {
@@ -317,7 +322,7 @@ footer {
 
 .three-reasons-icon {
   font-size: 26px;
-  color: #e67e22;
+  color: #4636f8;
 }
 
 .three-reasons-heading {
@@ -433,9 +438,9 @@ footer {
 
 .contact-heading {
   font-family: "Exo", sans-serif;
-  font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 20px;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 25px;
 }
 
 .center-form {
@@ -448,12 +453,15 @@ button[type="submit"] {
   margin-top: 15px;
   margin-bottom: 20px;
   color: #fafafa;
-  background-color: #e84610;
+  background-color: #107ce8;
 }
 
 .center-form form input,
 .center-form form textarea {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #9a9a9a;
+  border-radius: 25px;
 }
 
 /* ---------------------- Google Maps API ------------------------ */
